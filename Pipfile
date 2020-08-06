@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pylint = "*"
+aws-psycopg2 = "*"
+boto3 = "*"
+psycopg2 = "*"
+
+[packages]
+flask = "*"
+flask-restful = "*"
+flask-sqlalchemy = "*"
+flask-cors = "*"
+
+[requires]
+python_version = "3.8"

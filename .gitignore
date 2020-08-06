@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# python virtual environments
+__pycache__*
+.pytest_cache*
+aws_psycopg2-1.2.1.dist-info*
+psycopg2*
+test_config.py
